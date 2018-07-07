@@ -1,0 +1,1 @@
+A simple line-based terminal emulator and text input VueJS component for emulating a command-line like interface in the browser.

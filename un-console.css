@@ -1,0 +1,55 @@
+.un-console {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  position: relative;
+  
+  font-family: "Lucida Console", Monaco, monospace;
+  box-sizing: border-box;
+}
+
+.un-console-log {
+  width: 100%;
+}
+
+.un-console-entry {
+  width: 100%;
+}
+
+.un-console-echo {
+  width: 100%;
+}
+
+.un-console-scanlines {
+  position: fixed;
+  top: 0;
+  left: 0;
+  
+  height: 100%;
+  width: 100%;
+  
+  background-image: url("../images/scanline.png");
+  background-repeat: repeat;
+  
+  opacity: 0.3;
+  
+  pointer-events: none;
+  
+  z-index: 1;
+}
+
+.un-console-input {
+  position: fixed;
+  top: 0;
+  left: 0;
+  
+  border: none;
+  caret-color: transparent;
+  background: transparent;
+  
+  height: 100%;
+  z-index: 3;
+}
+
+.un-console-input:focus {
+  outline: none;
+}
