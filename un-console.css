@@ -27,7 +27,7 @@
   height: 100%;
   width: 100%;
   
-  background-image: url("../images/scanline.png");
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgbYnAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAB3RJTUUH4wgYEhgf6WgVjwAAABl0RVh0Q29tbWVudABDcmVhdGVkIHdpdGggR0lNUFeBDhcAAAAMSURBVAjXY2CAgn8AAQgA/yEMS1sAAAAASUVORK5CYII=);
   background-repeat: repeat;
   
   opacity: 0.3;
